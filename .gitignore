@@ -45,6 +45,8 @@ plugins/
 plugins/android.json
 plugins/ios.json
 $RECYCLE.BIN/
+/ios
+/www
 
 npm-debug.log*
 yarn-debug.log*

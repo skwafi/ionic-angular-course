@@ -1,0 +1,73 @@
+{
+    "paths": [
+        {
+            "name": "/products",
+            "lambdaFunction": "ionicangularcoursedcebf228",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            }
+        },
+        {
+            "name": "/bookings",
+            "lambdaFunction": "bookings",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            }
+        }
+    ],
+    "resourceName": "ApiSkwafi",
+    "apiName": "ApiSkwafi",
+    "functionArns": [
+        {
+            "lambdaFunction": "ionicangularcoursedcebf228"
+        },
+        {
+            "lambdaFunction": "bookings"
+        }
+    ],
+    "privacy": {
+        "auth": 2,
+        "unauth": 2,
+        "authRoleName": "ionic-angular-course-20190521220515-authRole",
+        "unAuthRoleName": "ionic-angular-course-20190521220515-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "ionicangularcoursedcebf228",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "bookings",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "8ee9873b"
+}

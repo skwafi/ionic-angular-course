@@ -1,0 +1,7 @@
+{
+    "tableName": "bookings",
+    "partitionKeyName": "bookingId",
+    "partitionKeyType": "S",
+    "sortKeyName": "type",
+    "sortKeyType": "S"
+}

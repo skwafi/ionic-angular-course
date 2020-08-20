@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ionic-angular-course-20190521220515-authRole",
+            "UnauthRoleArn": "arn:aws:iam::777787752023:role/ionic-angular-course-20190521220515-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::777787752023:role/ionic-angular-course-20190521220515-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "ionic-angular-course-20190521220515-deployment",
+            "UnauthRoleName": "ionic-angular-course-20190521220515-unauthRole",
+            "StackName": "ionic-angular-course-20190521220515",
+            "StackId": "arn:aws:cloudformation:eu-west-1:777787752023:stack/ionic-angular-course-20190521220515/bfe4f4b0-7c03-11e9-af13-06eb0c990f0a"
+        },
+        "categories": {
+            "auth": {
+                "cognitod7ec5633": {}
+            }
+        }
+    }
+}
